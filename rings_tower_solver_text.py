@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 """Rings Tower solver: fewest-move solution via A* search.
 
-Rules modelled
-- N tubes (default 5), each holds up to CAP rings (default 6).
-- A move takes the top run of same-coloured adjacent rings from one tube.
-- It can land on any other tube that has room (any colour).
-  (Use --match-top to require an empty tube or a matching top colour instead.)
-- The whole run moves together. If the target lacks room, the target fills to
-  CAP and the leftover rings stay behind in the source tube (partial move).
-- Solved: every colour sits in exactly one tube, and every tube is one colour.
-
 Colours are entered as numbers: 1=red 2=yellow 3=cyan 4=purple.
 
 Usage
