@@ -10,8 +10,6 @@ It is in 2 python files:
 
 Second file can read the board from IOS devices with [UxPlay](https://github.com/FDH2/UxPlay).
 
----
-
 ## Game rules
 
 - 5 tubes (poles), each holds up to **6** rings. 4 colours, 6 rings of each.
@@ -26,7 +24,6 @@ If your version of the game only lets you stack on an empty tube or a matching c
 
 Tubes are numbered **1 to 5 from left to right** as you see them on screen. Boards are written **bottom to top**, so `224311` means yellow, yellow, purple, cyan, red, red from the bottom up.
 
----
 ## Limitations
 - **Live capture is Hyprland only** (`hyprctl` + `grim`). May work for other distros but I have not tested.
 - `--select` also works on other wlroots compositors such as Sway. On other desktops, take a screenshot yourself and use `--image`, or type the board in.
@@ -67,7 +64,6 @@ and install UxPlay from your package source (e.g. the AUR) so you can mirror you
 
 `slurp` is only needed for `--select`.
 
----
 
 ## Quick start
 
@@ -105,7 +101,7 @@ For hands-free mode that re-reads by itself:
 python rings_live.py --live --watch 1
 ```
 
----
+
 
 ## Example
 
